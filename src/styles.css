@@ -1,0 +1,216 @@
+@import "@arcgis/core/assets/esri/themes/light/main.css";
+:root {
+  --nav-height: 50px
+}
+
+.nav-bar {
+    height: var(--nav-height);
+    background: skyblue
+}
+
+.nav-bar .active {
+    color : white
+}
+
+/* map */
+
+.map-years-container {
+  height: calc(10vh);
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.map-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.map-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .map-years-container div {
+    font-size: .6rem
+  }
+  .years-numbers {
+    padding: .2rem
+  }
+}
+
+@media (max-width: 1000px) {
+  .map-years-container div {
+    font-size: .8rem
+  }
+  .years-numbers {
+    padding: .3rem
+  }
+}
+
+@media (min-width: 1000px) {
+  .map-years-container div {
+    font-size: 1rem
+  }
+  .years-numbers {
+    padding: .4rem
+  }
+}
+
+
+
+.mapDiv {
+  height: calc(90vh - var(--nav-height))
+}
+
+/* stocks */
+.sp-bad {
+    background-image: url('https://images.pexels.com/photos/2418664/pexels-photo-2418664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')
+  }
+  .sp-normal {
+    background-image: url('https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-position: center bottom
+  }
+  .sp-good {
+    background-image: url('https://images.pexels.com/photos/3590/nature-sky-sunny-clouds.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+  }
+
+  
+
+.color-bar {
+    width: 80%; 
+    height: 13%; 
+    background: linear-gradient(to right, red, blue);
+    border-radius: 25px;
+    position: relative;
+    margin: 0 auto;
+  
+  }
+  
+  .arrow {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: -5px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #000000;
+  }
+
+.sector-graph {
+    width: "100%";
+    background: "yellow";
+    margin: "0";
+    padding: "0";
+  }
+  .sector-legend { 
+    width: '100%';
+    background: 'blue';
+    margin: '0';
+    padding: '0';
+  }
+
+  .stocks-sector-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stocks-info-card-title {
+    margin-left: 10px; 
+    font-weight: bold
+  }
+
+  .stocks-info-card {
+    margin-left: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .stocks-box-info {
+      font-size: .6rem
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .stocks-box-info {
+      font-size: .8rem
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    .stocks-box-info {
+      font-size: 1rem
+    }
+  }
+  
+
+  /* my investments */
+
+  .jesse-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    height: calc(100vh - var(--nav-height))
+  }
+  
+  .jesse-charts-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .jesse-info-table {
+    overflow-y: auto;
+  } 
+
+  .jesse-info-div {
+    width: 50%;
+    background-color: #0074e4;
+    border: 2px solid #333;
+    padding: .3rem .0;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .jesse-info-div:hover {
+    background-color: #0054a0;
+    border-color: #0054a0;
+  }
+
+  .jesse-info-div div {
+    padding: 0;
+  }
+
+  .jesse-name-column{
+    padding-left: 1rem !important
+  }
+
+  .jesse-valuecount-button {
+    background-color: #ff6600;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 8px 12px;
+    border: none;
+  }
+
+  .jesse-valuecount-button:hover {
+    background-color: #ff4c00; 
+    transform: scale(1.05); 
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2); 
+  }
