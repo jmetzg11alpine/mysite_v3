@@ -64,6 +64,28 @@
   font-size: 30px;
 }
 
+/* summary */
+
+.summary-icon {
+  cursor: pointer;
+  margin: 0 .5rem;
+}
+
+.summary-expanded-container {
+  border-bottom: 1px solid #ccc;
+}
+
+.summary-expanded-container ul {
+  margin-bottom: 0;
+} 
+
+.summary-expanded-container li {
+  margin-left: 1.5rem;
+}
+
+.summary-expanded-container div {
+  margin-left: 1.2rem;
+}
 /* map */
 
 .map-years-container {
