@@ -4,6 +4,7 @@ import {
   Routes,
   Route as RouteComponent,
 } from "react-router-dom";
+import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Summary from "./components/summary/Summary";
 import MapContainer from "./components/map/MapContainer";
@@ -29,7 +30,8 @@ function App() {
     <Router>
       <NavBar />
       <Routes>
-        <RouteComponent path="/" element={<Summary />} />
+        <RouteComponent path="/" element={<Home />} />
+        <RouteComponent path="/summary" element={<Summary />} />
         <RouteComponent path="/map" element={<MapContainer />} />
         <RouteComponent
           path="/stocks"

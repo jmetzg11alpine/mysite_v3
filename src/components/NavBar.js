@@ -1,14 +1,20 @@
 import { Nav } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
+import { GiDonkey } from "react-icons/gi";
 
 const NavBar = () => {
   const location = useLocation();
   return (
     <div className="nav-bar d-flex justify-content-between align-items-center px-5">
+      <Link to="/">
+        <GiDonkey
+          className={`donkey-icon ${location.pathname === "/" ? "active" : ""}`}
+        />
+      </Link>
       <Nav.Link
         as={Link}
-        to="/"
-        className={location.pathname === "/" ? "active" : ""}
+        to="/summary"
+        className={location.pathname === "/summary" ? "active" : ""}
       >
         Work Summary
       </Nav.Link>
