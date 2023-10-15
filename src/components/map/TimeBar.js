@@ -3,7 +3,7 @@ import { renderYearLabels } from "./helpers";
 import { Button } from "react-bootstrap";
 
 const yearSummary = {
-  overview: "Major location from 2007-2023",
+  overview: "Major locations from 2007-2023",
   2007: "Finished high school",
   2008: "Study abroad in Guadalajar, Mexico",
   2009: "Study abroad in Buenos Aires, Argentina",
