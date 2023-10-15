@@ -11,6 +11,7 @@ import MapContainer from "./components/map/MapContainer";
 import Stocks from "./components/stocks/Stocks";
 import JesseContainer from "./components/jesse/JesseContainer";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { inject } from "@vercel/analytics";
 
 function App() {
   const [width, setWidth] = useState(300);
@@ -26,6 +27,9 @@ function App() {
       window.removeEventListener("resize", updateDimensions);
     };
   });
+  useEffect(() => {
+    inject();
+  }, []);
   return (
     <Router>
       <NavBar />
