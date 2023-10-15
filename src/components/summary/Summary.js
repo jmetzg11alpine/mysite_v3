@@ -8,13 +8,14 @@ const Summary = () => {
       details: [
         "Learning about the Logistic Industry",
         "Becoming familiar with the core applicatioin built with Django Rest framework and React",
-        "Started a dashboard to show key KPIs with D3.js",
+        "Started a dashboard on landing page to show key KPIs with D3.js",
       ],
-      result: "Became with logistics industry and new company",
+      result:
+        "I became familiar with the logistics industry and current company's procedures",
     },
     {
       id: 2,
-      title: "04/2023 Finsished D3.js dashboard",
+      title: "04/2023 Finsished D3.js dashboard for landing page",
       details: [
         "Shows buses incoming and outgoing by terminals",
         "Show orders incoming and outgoing by terminals",
@@ -23,7 +24,7 @@ const Summary = () => {
         "Add tooltip for hover",
       ],
       result:
-        "User can get a quick understand of status through visual representations",
+        "Users can get a quick understand of status through visual representations",
     },
     {
       id: 3,
@@ -31,19 +32,19 @@ const Summary = () => {
       details: [
         "Trained ML model for price predicting. Key features where start, end, skids, weight, vehicle type, and duration. Used CatBoost from Yandex",
         "Added new field of 'scheduled pickup' and incorporated it to various parts of the application",
-        "Created new input fields on various forms to insure data consistency",
+        "Created new input fields on various applications to insure data consistency",
       ],
       result:
-        "Users can now automatically get range for appropriate prices for new orders. The scheduled pickup time saves users from a manual calculation. Data is now more reliable.",
+        "Users can now automatically get a range of appropriate prices for new orders. The scheduled pickup time saves users from a manual calculation. Data is now more reliable.",
     },
     {
       id: 4,
       title: "06/2023 Started Warehouse application",
       details: [
-        "A dashboard made with D3.js current orders for each warehouse",
+        "A dashboard made with D3.js to show current orders for each warehouse",
         "A new UI that shows incoming and outgoing order by warehouse",
         "User can mark orders as loaded or unloaded",
-        "Added a notes field where operators can leave special messages",
+        "Added a notes field where users can leave messages",
         "Added to new fields to the database to reflect new functionality",
       ],
       result:
@@ -57,7 +58,7 @@ const Summary = () => {
         "User can now take photos of orders",
         "User can now print labels for the orders",
         "User can now scan order QR codes with an iPad",
-        "Three new data tables added and created file storage management stystem on the server to store the files",
+        "Three new data tables added and created file storage management stystem on the server to store the images",
         "Functionality can be done on the bus level to quicken work flow",
       ],
       result:
@@ -68,22 +69,22 @@ const Summary = () => {
       title: "08/2023 Dashboard for sales teams and user history",
       details: [
         "Automated data gathering from Insightly",
-        "Data displayed in a custom format to reveal KPIs to management",
-        "Every action that changes data related to an order is now recorded to a new data table that shows who, when and what was changed to an order",
+        "Data visually displayed in a custom format to reveal KPIs to management",
+        "Every action that changes data related to an order is now recorded to a new data table that shows who, when and what was changed",
       ],
       result:
         "Management can now clearly see KPIs related to sales in one place. More transparency and accountability for data changes related to orders.",
     },
     {
       id: 7,
-      title: "09/2023 arcGIS map and warehouse applicaiton improvements",
+      title: "09/2023 ArcGIS map and warehouse applicaiton improvements",
       details: [
         "Through Google Maps api, the longitude and latitude of every pickup and delivery was recorded in a new data table",
-        "Through arcGIS every active order is displayed on a map",
+        "Through ArcGIS every active order is displayed on a map",
         "In the UI of the warehouse application certain columns and rows are highlight different colors",
       ],
       result:
-        "User now have a geographic view of current orders. Users can quickly identify pressing issues on the warehouse applicaitons due to color highlights",
+        "Users now have a geographic view of current orders. Users can quickly identify pressing issues on the warehouse applicaitons due to color highlights",
     },
     {
       id: 8,
@@ -94,7 +95,7 @@ const Summary = () => {
         "The form on the bus sheet has stricter inputs",
       ],
       result:
-        "User can now use the map to compare potential new orders with current orders. Data is now more reliable in the bus application \
+        "Usesr can now use the map to compare potential new orders with current orders. Data is now more reliable in the bus application \
       and user can fill in the form quicker",
     },
   ];

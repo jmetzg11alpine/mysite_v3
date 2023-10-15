@@ -79,9 +79,9 @@ const Home = () => {
           </Nav.Link>
         </div>
         <div className="home-info">
-          We utilize a scheduled cron job to run a Python script every morning,
-          enabling us to analyze current market trends in key sectors and
-          generate visualizations using D3.js
+          Using a scheduled cron job to execute a Python script each morning, we
+          can analyze current market trends in key sectors and generate
+          visualizations with D3.js.
         </div>
         <div className="home-minor-title">
           <Nav.Link

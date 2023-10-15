@@ -122,30 +122,31 @@
   margin-right: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px), (max-height: 600px) {
   .map-years-container div {
-    font-size: .6rem
+    font-size: .5rem
+  }
+  .years-numbers {
+    padding: .1rem
+  }
+}
+
+@media (max-width: 1000px), (max-height: 800px) {
+  .map-years-container div {
+    font-size: .7rem
   }
   .years-numbers {
     padding: .2rem
   }
+  
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 1000px), (min-height: 800px) {
   .map-years-container div {
     font-size: .8rem
   }
   .years-numbers {
     padding: .3rem
-  }
-}
-
-@media (min-width: 1000px) {
-  .map-years-container div {
-    font-size: 1rem
-  }
-  .years-numbers {
-    padding: .4rem
   }
 }
 
