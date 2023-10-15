@@ -96,7 +96,7 @@ const Summary = () => {
       ],
       result:
         "Usesr can now use the map to compare potential new orders with current orders. Data is now more reliable in the bus application \
-      and user can fill in the form quicker",
+      and users can fill in the form quicker",
     },
   ];
   return <ProjectList projects={projects} />;
