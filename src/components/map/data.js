@@ -2335,7 +2335,7 @@ export const dataByYears = {
           title: "Krylatskoye District, Moscow",
           content: "Moved back in with future wife",
         },
-        size: 1,
+        size: 1.5,
       },
     ],
     trail: { exists: false },
