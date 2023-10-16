@@ -2288,22 +2288,6 @@ export const dataByYears = {
     },
   },
   2020: {
-    start: { latitude: 55.7, longitude: 37.4, zoom: 6 },
-    data: [
-      {
-        latitude: 55.7505625,
-        longitude: 37.407488,
-        year: 2020,
-        info: {
-          title: "Krylatskoye District, Moscow",
-          content: "Covid lock downs",
-        },
-        size: 1.5,
-      },
-    ],
-    trail: { exists: false },
-  },
-  2021: {
     start: { latitude: 54, longitude: 22, zoom: 4 },
     data: [
       {
@@ -2334,6 +2318,22 @@ export const dataByYears = {
         info: {
           title: "Krylatskoye District, Moscow",
           content: "Moved back in with future wife",
+        },
+        size: 1.5,
+      },
+    ],
+    trail: { exists: false },
+  },
+  2021: {
+    start: { latitude: 55.7, longitude: 37.4, zoom: 6 },
+    data: [
+      {
+        latitude: 55.7505625,
+        longitude: 37.407488,
+        year: 2021,
+        info: {
+          title: "Krylatskoye District, Moscow",
+          content: "Covid lock downs",
         },
         size: 1.5,
       },
